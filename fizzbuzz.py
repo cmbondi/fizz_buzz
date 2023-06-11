@@ -9,13 +9,14 @@ for num in range(1, 101):
     else:
         print(num)
 
+
 # FizzBuzz as function to test single number
-def fizz_buzz(num):
-    if num % 3 == 0 and num % 5 == 0:
+def fizz_buzz(n):
+    if n % 3 == 0 and n % 5 == 0:
         return "FizzBuzz"
-    elif num % 3 == 0:
+    elif n % 3 == 0:
         return "Fizz"
-    elif num % 5 == 0:
+    elif n % 5 == 0:
         return "Buzz"
     else:
-        return num
+        return n
