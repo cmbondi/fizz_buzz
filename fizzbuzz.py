@@ -20,3 +20,8 @@ def fizz_buzz(n):
         return "Buzz"
     else:
         return n
+
+
+number = int(input("Enter a number to get FizzBuzz: "))
+
+fizz_buzz(number)
